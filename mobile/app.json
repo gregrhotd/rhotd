@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Rabbit Hole of the Day",
+    "slug": "rabbit-hole-of-the-day",
+    "scheme": "rabbitholeoftheday",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFBEB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rabbitholeoftheday.app"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.rabbitholeoftheday.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFBEB"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
