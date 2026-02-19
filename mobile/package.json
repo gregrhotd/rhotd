@@ -120,7 +120,7 @@
     "react-native-ios-context-menu": "3.1.0",
     "react-native-ios-utilities": "5.1.5",
     "react-native-keyboard-controller": "^1.19.2",
-    "react-native-maps": "^1.24.3",
+    "react-native-maps": "1.24.3",
     "react-native-markdown-display": "^7.0.2",
     "react-native-mask-text": "^0.15.0",
     "react-native-mmkv": "^3.2.0",
@@ -169,7 +169,8 @@
   "private": true,
   "overrides": {
     "react-native-css-interop": "0.1.22",
-    "react-native-reanimated": "3.17.4"
+    "react-native-reanimated": "3.17.4",
+    "react-native-maps": "1.24.3"
   },
   "patchedDependencies": {
     "react-native@0.79.6": "patches/react-native@0.79.6.patch",
